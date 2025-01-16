@@ -33,7 +33,7 @@ Automate the creation and activation of role-based certification campaigns using
 ## Usage
 ### Create Certifications
 
-Configure role areas
+#### Configure role areas
 The script is currently configured to determine Role Area by splitting the role's name at certain characters (-, |) and taking the first part. This part is then stripped of any leading or trailing whitespace. This works for role name formatting like:
 
 Finance - Banking
