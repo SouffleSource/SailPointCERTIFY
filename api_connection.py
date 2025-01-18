@@ -25,7 +25,7 @@ client_id = os.getenv('CLIENT_ID')
 client_secret = os.getenv('CLIENT_SECRET')
 cert_path = os.getenv("CERT_PATH")
 base_url = os.getenv('BASE_URL')
-auth_url = f"{base_url}/oauth/token"
+auth_url = f"{base_url}oauth/token"
 
 # Ensure all required environment variables are set
 if not all([client_id, client_secret, cert_path, base_url]):
