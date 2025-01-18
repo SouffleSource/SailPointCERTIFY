@@ -61,7 +61,5 @@ python activate_certifications.py
 
 Logs are stored in the `logs` directory. Each script creates its own log file with detailed information about the execution including the POST requests with the request body for each certification request to aid format debugging. 
 
-## License
 
-This project is licensed under the MIT License.
 
